@@ -1,0 +1,10 @@
+                  precision    recall  f1-score   support
+
+ Extreme poverty      0.588     0.625     0.606        48
+Moderate poverty      0.477     0.500     0.488       102
+      Vulnerable      0.263     0.369     0.307        84
+  Non-vulnerable      0.917     0.811     0.861       366
+
+        accuracy                          0.682       600
+       macro avg      0.561     0.576     0.565       600
+    weighted avg      0.724     0.682     0.700       600

@@ -1,0 +1,66 @@
+{
+  "data_source": "synthetic",
+  "n_households": 3000,
+  "n_features": 31,
+  "train_size": 2400,
+  "test_size": 600,
+  "class_counts": {
+    "1": 240,
+    "2": 510,
+    "3": 420,
+    "4": 1830
+  },
+  "best_params": {
+    "ccp_alpha": 0.0,
+    "criterion": "entropy",
+    "max_depth": 8,
+    "min_samples_leaf": 1
+  },
+  "cv5_macro_f1_mean": 0.5579,
+  "cv5_macro_f1_std": 0.028,
+  "results": {
+    "Decision Tree (baseline, unpruned)": {
+      "accuracy": 0.7233,
+      "macro_f1": 0.5961,
+      "weighted_f1": 0.7244,
+      "depth": 17,
+      "train_accuracy": 1.0
+    },
+    "Decision Tree (tuned, proposed)": {
+      "accuracy": 0.6817,
+      "macro_f1": 0.5655,
+      "weighted_f1": 0.6996,
+      "depth": 8,
+      "leaves": 159,
+      "train_accuracy": 0.8229,
+      "cv_macro_f1": 0.5662
+    },
+    "Majority-class baseline": {
+      "accuracy": 0.61,
+      "macro_f1": 0.1894,
+      "weighted_f1": 0.4622
+    },
+    "Logistic Regression": {
+      "accuracy": 0.76,
+      "macro_f1": 0.6795,
+      "weighted_f1": 0.7776
+    },
+    "Random Forest (reference)": {
+      "accuracy": 0.785,
+      "macro_f1": 0.6367,
+      "weighted_f1": 0.758
+    }
+  },
+  "top_features": {
+    "escolari_head": 0.2177,
+    "epared": 0.1201,
+    "asset_score": 0.097,
+    "etecho": 0.0832,
+    "overcrowding": 0.0768,
+    "people_per_room": 0.0711,
+    "eviv": 0.0513,
+    "meaneduc": 0.0458,
+    "dependency": 0.0452,
+    "qmobilephone": 0.0448
+  }
+}

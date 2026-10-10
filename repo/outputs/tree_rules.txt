@@ -1,0 +1,88 @@
+|--- escolari_head <= 5.65
+|   |--- epared <= 1.50
+|   |   |--- overcrowding <= 1.55
+|   |   |   |--- asset_score <= 1.50
+|   |   |   |   |--- dependency <= 0.71
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- dependency >  0.71
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- asset_score >  1.50
+|   |   |   |   |--- r4t1 <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- r4t1 >  1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- overcrowding >  1.55
+|   |   |   |--- qmobilephone <= 1.50
+|   |   |   |   |--- asset_score <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- asset_score >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- qmobilephone >  1.50
+|   |   |   |   |--- asset_score <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- asset_score >  1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- epared >  1.50
+|   |   |--- people_per_room <= 1.29
+|   |   |   |--- eviv <= 1.50
+|   |   |   |   |--- dependency <= 1.38
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- dependency >  1.38
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- eviv >  1.50
+|   |   |   |   |--- computer <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- computer >  0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |--- people_per_room >  1.29
+|   |   |   |--- meaneduc <= 1.94
+|   |   |   |   |--- people_per_room <= 2.83
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- people_per_room >  2.83
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- meaneduc >  1.94
+|   |   |   |   |--- asset_score <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- asset_score >  1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|--- escolari_head >  5.65
+|   |--- etecho <= 1.50
+|   |   |--- people_per_room <= 3.25
+|   |   |   |--- eviv <= 1.50
+|   |   |   |   |--- age_head <= 46.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- age_head >  46.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- eviv >  1.50
+|   |   |   |   |--- escolari_head <= 9.55
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- escolari_head >  9.55
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- people_per_room >  3.25
+|   |   |   |--- refrig <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- refrig >  0.50
+|   |   |   |   |--- people_per_room <= 6.50
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- people_per_room >  6.50
+|   |   |   |   |   |--- class: 1
+|   |--- etecho >  1.50
+|   |   |--- epared <= 2.50
+|   |   |   |--- eviv <= 1.50
+|   |   |   |   |--- overcrowding <= 0.93
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- overcrowding >  0.93
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- eviv >  1.50
+|   |   |   |   |--- r4t1 <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- r4t1 >  1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- epared >  2.50
+|   |   |   |--- escolari_head <= 8.95
+|   |   |   |   |--- people_per_room <= 1.29
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- people_per_room >  1.29
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- escolari_head >  8.95
+|   |   |   |   |--- class: 4
