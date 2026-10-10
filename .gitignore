@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# Large raw Kaggle data should not be committed (see data/README.md)
+data/train.csv
+data/test.csv
